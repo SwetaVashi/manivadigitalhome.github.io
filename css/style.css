@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#hh1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#sp {
+    font-size: 60px;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+#sp1 {
+    font-size: 22px;
+    line-height: 1.6;
+    color: white;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#hp {
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/c1gif.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absoulte;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.nav-item a {
+    color: black important;
+    font-weight: bold;
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: darkorange;
+    text-align: center;
+    position: relative;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-buttons a {
+    border: 1px solid darkorange;
+    border-radius: 100px;
+    margin: 0 50px;
+    padding: 12px 35px;
+    outline: none;
+    color: black;
+    background-color: darkorange;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.center-div p {
+    padding: 0px 0 30px 0;
+}
+
+.secondpart {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    width: 100 %;
+    height: 70vh;
+    background-image: url('../images/secondpart.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.secondpart p {
+    padding: 20px 0 20px 0;
+}
+
+.thirdpart {
+    background-color: darkorange;
+    height: 120vh;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.firstimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/app-web-development.jpg');
+    background-repeat: no-repeat;
+}
+
+#h31 {
+    text-align: center;
+}
+
+.fourthpart {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.fifthpart {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    color: black;
+    align-items: center;
+    align-content: center;
+    padding-left: 200px;
+}
+
+.sixthpart {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.card {
+    background-color: darkorange;
+    color: black;
+    width: 350px;
+    height: 620px;
+    align-items: center;
+    vertical-align: middle;
+    border: none;
+}
+
+.card-body {
+    border: none;
+    text-align: center;
+}
+
+.card-text {
+    border: none;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
